@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+
+# Virtual env
+venv/
+.env
+
+# Mac/Linux
+.DS_Store
