@@ -10,37 +10,119 @@ Luciana Restrepo Cadavid
 
 
 
-\## Description
-
-Project for Lab 3: data preprocessing, statistical analysis (Kruskal–Wallis and Dunn post-hoc), and visualization.
+\# Biomedical Data Analysis Project — Labs 1, 2 \& 3
 
 
 
-\## How to run
+This repository contains the development of three integrated laboratory exercises for biomedical data analysis, focused on the preprocessing, exploration, and statistical evaluation of respiratory pressure data.  
 
-1\. Create and activate virtual environment:
-
-
-
-2\. Run Jupyter:
+The work was developed as part of the Scientific Programming course and aims to demonstrate analytical, programming, and statistical skills for handling physiological datasets.
 
 
 
-3\. Open `notebooks/run\_pipeline.ipynb` and execute the cells.
+
+
+\## Overview
 
 
 
-\## Structure
+The dataset represents ventilatory cycles, including pressure, volume, and flow variables recorded over time.  
 
-\- `data/`: raw and processed data.
+The analysis pipeline includes:
 
-\- `src/preprocessing/`: data cleaning and transformation functions.
 
-\- `src/analysis/`: statistical tests (normality, Kruskal–Wallis, Dunn post-hoc).
 
-\- `src/visualization/`: plotting functions.
+1\. \*\*Preprocessing\*\* — Loading, cleaning, and preparing data for analysis.
 
-\- `notebooks/`: exploratory and main notebooks.
+2\. \*\*Exploratory Analysis\*\* — Statistical summaries, normality assessment, and correlation analysis.
+
+3\. \*\*Visualization\*\* — Graphical representation of relationships and distributions.
+
+4\. \*\*Statistical Testing\*\* — Implementation of non-parametric tests (Kruskal–Wallis and Dunn’s post-hoc).
+
+
+
+
+
+\## Project Structure
+
+
+
+Lab3\_project/
+
+│
+
+├── data/
+
+│ ├── raw/ # Original datasets
+
+│ │ ├── train.csv
+
+│ │ ├── test.csv
+
+│ │ └── sample\_submission.csv
+
+│ └── processed/ # Cleaned or transformed data
+
+│
+
+├── notebooks/ # Jupyter notebooks of the labs
+
+│ ├── Laboratorio1.ipynb
+
+│ ├── Laboratorio2.ipynb
+
+│ └── Laboratorio3.ipynb
+
+│
+
+├── src/ # Source code (modularized by function)
+
+│ ├── preprocessing/
+
+│ │ └── clean\_data.py # Data loading and preprocessing
+
+│ ├── analysis/
+
+│ │ └── exploratory\_analysis.py # Descriptive and statistical analysis
+
+│ └── visualization/
+
+│ └── plots.py # Visualization and plotting scripts
+
+│
+
+└── README.md
+
+
+
+\## Requirements
+
+
+
+To execute the project, install the required Python packages:
+
+
+
+```bash
+
+pip install pandas numpy matplotlib seaborn scipy openpyxl
+
+
+
+Or, if using a virtual environment:
+
+
+
+python -m venv venv
+
+venv\\Scripts\\activate     # (Windows)
+
+pip install -r requirements.txt
+
+
+
+
 
 
 
