@@ -1,16 +1,18 @@
 # Lab3\_project
 
-Lab 3 - preprocessing, analysis, visualization
+
+
+preprocessing, analysis, visualization
 
 
 
-\## Author
+**Author:**
 
-Luciana Restrepo Cadavid
+**Luciana Restrepo Cadavid**
 
 
 
-\# Biomedical Data Analysis Project — Labs 1, 2 \& 3
+**Biomedical Data Analysis Project — Labs 1, 2 \& 3**
 
 
 
@@ -22,7 +24,7 @@ The work was developed as part of the Scientific Programming course and aims to 
 
 
 
-\## Overview
+**Overview**
 
 
 
@@ -32,19 +34,17 @@ The analysis pipeline includes:
 
 
 
-1\. \*\*Preprocessing\*\* — Loading, cleaning, and preparing data for analysis.
+**1. Preprocessing:** Loading, cleaning, and preparing data for analysis.
 
-2\. \*\*Exploratory Analysis\*\* — Statistical summaries, normality assessment, and correlation analysis.
+**2. Exploratory Analysis:** Statistical summaries, normality assessment, detect outliers, correlation analysis, normality test (Kolmogorov) and Implementation of non-parametric tests (Kruskal–Wallis).
 
-3\. \*\*Visualization\*\* — Graphical representation of relationships and distributions.
-
-4\. \*\*Statistical Testing\*\* — Implementation of non-parametric tests (Kruskal–Wallis and Dunn’s post-hoc).
+**3. Visualization:** Graphical representation of relationships and distributions.
 
 
 
 
 
-\## Project Structure
+**- Project Structure**
 
 
 
@@ -96,7 +96,7 @@ Lab3\_project/
 
 
 
-\## Requirements
+**- Requirements**
 
 
 
