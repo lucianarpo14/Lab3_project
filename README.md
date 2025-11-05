@@ -105,6 +105,11 @@ pip install pandas numpy matplotlib seaborn scipy openpyxl
 
 python notebooks/Lab3.py
 
+```
+
+Finally,ensure the dataset files are located in the following directory structure:
+
 data/raw/train.csv
 data/raw/test.csv
 data/raw/sample_submission.csv
+
